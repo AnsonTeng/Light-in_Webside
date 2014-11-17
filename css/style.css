@@ -42,12 +42,22 @@ body
 
 
 
+.content
+{
+	width: 1200px;
+	margin: 0px auto;
+	background-color: #121212;
+	/*background-color: #F00;*/
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+
 .main_menu
 {
 	width: 1200px;
 	height: 60px;
 	margin: 0px auto; 
-	background-color: #111;
+	/*background-color: #111;*/
 }
 
 
@@ -55,6 +65,7 @@ body
 {
 	margin-left: 200px;
 	/*margin-right: 200px;*/
+	padding: 0px;
 }
 
 
@@ -63,13 +74,14 @@ body
 	/*刪除項目清單前的圓點*/
 	list-style-type: none;
 
-	margin: auto;
+	margin: 0px auto;
 	width: 200px;
 	height: 60px;
 	/* line-height 設定字體範圍高度 (行距) */
 	line-height:3.6em;
 	color: #666;
 	float: left;
+	text-align: center;
 }
 
 
@@ -79,17 +91,16 @@ body
 {
 	width: 1200px;
 	margin: 0px auto; 
-	background-color: #111;
 }
 
 
 .brand_group
 {
-	width: 940px;
+	width: 880px;
 	height: 360px;
 	margin: 0px auto; 
-	padding: 60px 130px 60px 130px;
-	background-color: #111;
+	padding: 60px 160px 60px 160px;
+	/*background-color: #111;*/
 
 }
 
@@ -113,7 +124,7 @@ body
 {
 	font-weight: bold;
 	text-align: center;
-	color: #F00;
+	color: #CCC;
 
 }
 
@@ -129,7 +140,6 @@ body
 {
 	width: 1200px;
 	margin: 0px auto; 
-	padding: 0px;
 	background-color: #CCC;
 }
 
@@ -137,281 +147,89 @@ body
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#wrapper
-{
-	font-family: "微軟正黑體",Arial, Helvetica, sans-serif;
-	width: 100%;
-	height: 100%;										/*網頁外框設定*/
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-
-
-
-
-
-
-
-#header_logo
-{
-	margin-top: 52px;
-	width: 124px;
-	height: 110px;
-	background-image: 		url(../images/header_logo.jpg);	
-	background-repeat:	 	no-repeat;									/*設定為背景不重複*/
-	background-position:	bottom;	
-}
-
-#header_support
-{
-	margin-top: 80px;
-	margin-left: auto;
-	margin-right: 0;
-	width: 216px;
-	height: 36px;
-	background-image: url(../images/header_support.jpg);
-	background-repeat: no-repeat;
-	position: relative;
-	right: auto;
-}
-
-#header_search
-{
-	margin-top: 124px;
-	margin-left: auto;
-	margin-right: 0;
-	margin-bottom: 0;
-	width: 216px;
-	height: 36px;
-	background-image: url(../images/header_search.jpg);
-	background-repeat: no-repeat;
-	position: relative;
-}
-
-
-
-
-
-
-.clear {
-	clear: both;
-	display: block;
-	overflow: hidden;
-	visibility: hidden;
-	width: 0;
-	height: 0;
-}
-
-#top{
-	height: 45px;
-}
-
-.space_1
-{
-	height: 				48px;										/*高度設定*/
-}
-
-
-.space_2
-{
-	height: 				20px; 										/*高度設定*/
-}
-
-
-.space_3
-{
-	height: 				100px; 										/*高度設定*/
-}
-
-
-
-
-
-.btn
-{
-	height:					38px; 										/*高度設定為  38px，此部分因為裡面的圖片自己會有高度，所以高度也不一定要設定*/
-	background-image:		url(../images/button.jpg); 					/*背景圖片設定*/
-	background-repeat:		no-repeat;									/*設定為背景不重複*/
-	background-position:	center;										/*背景圖片置中*/
-	
-}
-
-
-.primary_vision
-{
-	height: 				480px;										/*高度設定*/
-	background-image:		url(../images/primary_vision.jpg); 			/*背景圖片設定*/
-	background-repeat: 		no-repeat;									 /*設定為背景不重複*/
-	background-position:	center;										/*背景圖片置中*/
-}
-
-
-.brand_01
-{
-	width:					320px;
-	height: 				240px; 										/*高度設定*/
-	float:					left;
-	background-image: 		url(../images/brand-01.jpg); 				/*背景圖片設定*/
-	background-repeat: 		no-repeat; 									/*設定為背景不重複*/	
-}
-
-.brand_02
-{
-	width:					320px;
-	height: 				240px;										/*高度設定*/
-	float:					left;
-	background-image: 		url(../images/brand-02.jpg); 				/*背景圖片設定*/
-	background-repeat: 		no-repeat; 									/*設定為背景不重複*/	
-}
-
-.brand_03
-{
-	width:					320px;
-	height: 				240px; 										/*高度設定*/
-	float:					left;
-	background-image: 		url(../images/brand-03.jpg); 				/*背景圖片設定*/
-	background-repeat: 		no-repeat; 									/*設定為背景不重複*/	
-}
-
-
-.hyper_link
-{
-	width: 					320px;
-	height: 				70px; 										/*高度設定*/
-	float: 					left;
-	text-align: 			center;
-	vertical-align: 		text-top;
-	font-size: 				13px;
-	color: 					#999999;
-	text-decoration: 		underline;
-	padding-top: 			6px;
-}
-
-
-.video
-{
-	background-position:	center;										/*背景圖片置中*/
-	margin: 				auto;										/*版面居中對齊*/
-	margin-right:			auto;                                       /*圖片置中*/
-	margin-left:			auto; 	
-}
-
-
-
 .footer
 {
-	width: 					960px;
-	height: 				240px;
-	background-image: 		url(../images/footer.jpg); 					/*背景圖片設定*/
-	background-repeat: 		no-repeat;									/*設定為背景不重複*/
-	background-position:	center;										/*背景圖片置中*/
-	background-position:	top;
-	margin: 				auto;										/*版面居中對齊*/
-	margin-right:			auto;                                       /*圖片置中*/
-	margin-left:			auto; 	
+	width: 1200px;
+	height: 130px;
+	margin: 0px auto;
+	text-align: center;
+	/*background-color: #111;*/
 }
 
-.footer_back
+
+
+
+.links
 {
-	width: auto;
-	background-color: #00AACC;
-	margin: auto;
-	background-image: none;
-	background-position: 50% 50%;
+	width: 1200px;
+	height: 80px;
+	/* line-height 設定字體範圍高度 (行距) */
+	/*line-height:3.6em;*/
+	color: #666;
+	/*float: left;*/
+	/*float: right;*/
+	/*padding: 60px auto 10px auto;*/
+	margin: 0px auto;
+	clear: both;
+
 }
 
 
 
-
-
-
-
-
-
-#content
+.links p
 {
-	/* CSS 中 DIV 自己會長到上層 DIV100% 的寬度 (在這裡就是 #wrapper)，所以可不用設定寬度*/
-	font-size: 				14px;										/*字體大小*/
-	line-height: 			2em;										/*字體行間為兩個字距*/
-	color:					#333;
-	padding: 				30px;									 	/*內文的內距上下左右皆為30px*/
-    line-height: 			2em;  
+	width: 100px;
+	margin: 0px auto;
+	padding: 60px 0px 0px 0px ;
+	color: #555;
+	/*float: left;*/
+	display: inline-block;
 }
 
 
-#titile_bar
+
+
+.copyright
 {
-	/*標題的DIV*/
-	font-size: 				16px;
-	font-weight: 			bolder;
-	line-height: 			3em;										/*行高為3字高*/
-	color: 					#FFF;
-	background-image: url(images/bottom.jpg);
-	background-repeat: no-repeat;
-	text-align:center; /*居中對齊*/
+	margin: 0px auto;
+	clear: both;
 }
 
 
-
-
-
-
-
-
-.title-2
+.copyright p
 {
-	font-size: 16px;
-	font-weight: bolder;
-	color: #737232;
-	padding-left: 5px;
-	border-bottom-style: dotted;
-	border-bottom-width: 1px;
-	border-bottom-color: #86863C;
-	border-left-style: solid;
-	border-left-width: 1em;
-	border-left-color: #86863C;
+	/* line-height 設定字體範圍高度 (行距) */
+	/*line-height:3.6em;*/
+	color: #666;
+	/*text-align: center;*/
+	margin: 10px auto;
+
 }
 
 
-.floatleft
+
+
+.contact
 {
-	/*將圖片設定靠左浮動，形成繞圖排文*/
-	float: left; 
-	padding-right: 20px;
-	padding-bottom: 20px;
+	width: 60px;
+	height: 200px;
+	top: 105px;
+	right: 0px;
+
+	position: fixed;
+	background-color: #FC0;
+
+	box-shadow: -6px 1px 10px rgba(0,0,0,1);
 }
+
+
+.contact p
+{
+	width: 1em;
+	line-height: 1.6em;
+	margin: 8px auto 0px auto;
+}
+
 
 
 .clearboth
