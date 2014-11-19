@@ -90,7 +90,7 @@ body
 .slider
 {
 	width: 1200px;
-	margin: 0px auto; 
+	margin: 0px auto 60px auto;
 }
 
 
@@ -99,7 +99,7 @@ body
 	width: 880px;
 	height: 360px;
 	margin: 0px auto; 
-	padding: 60px 160px 60px 160px;
+	padding: 20px 160px 10px 160px;
 	/*background-color: #111;*/
 
 }
@@ -139,7 +139,7 @@ body
 .movie
 {
 	width: 1200px;
-	margin: 0px auto; 
+	margin: 60px auto 0px auto; 
 	background-color: #CCC;
 }
 
@@ -209,6 +209,7 @@ body
 
 
 
+
 .contact
 {
 	width: 60px;
@@ -222,13 +223,13 @@ body
 	box-shadow: -6px 1px 10px rgba(0,0,0,1);
 }
 
-
 .contact p
 {
 	width: 1em;
 	line-height: 1.6em;
 	margin: 8px auto 0px auto;
 }
+
 
 
 
