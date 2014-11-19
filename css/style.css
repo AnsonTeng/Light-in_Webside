@@ -140,8 +140,9 @@ body
 
 .movie
 {
-	width: 1200px;
-	margin: 60px auto 0px auto; 
+	width: 1120px;
+	height: 630px;
+	margin: 0px auto; 
 	background-color: #CCC;
 }
 
