@@ -17,15 +17,32 @@ body
 }
 
 
-.header
+.package
 {
 	width: 1200px;
-	height: 105px;
-	margin: 0 auto; 
+	margin: 0px auto;
 }
+
+.content
+{
+	width: 1200px;
+	margin: 0px auto;
+	background-color: #FFF;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
 
 .logo
 {
+	margin-top: 38px;
+	margin-left: 36px;
 	float: left;
 }
 
@@ -43,14 +60,7 @@ body
 
 
 
-.content
-{
-	width: 1200px;
-	margin: 0px auto;
-	background-color: #151515;
-	/*background-color: #F00;*/
-	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
-}
+
 
 
 .main_menu
@@ -242,3 +252,105 @@ body
 	/*清除浮動設定，取消靠左浮動*/
 	clear: both;
 }		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------- MENU ---------------------------------------*/
+
+#menu-wrapper .main-menu , #menu-wrapper .sub-menu {
+	margin: 0 auto;
+	width: 1200px;
+	z-index: 1;
+}
+
+#menu-wrapper ul, #menu-wrapper ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+
+.main-menu-wrapper
+{
+ font-size: 1.6em;	
+}
+
+
+
+.main-menu ul li, .sub-menu ul li {
+	float: left;
+}
+
+.main-menu ul li a {
+	color: #f00;
+	display: block;
+	margin-left: 40px;
+	margin-right: 50px;
+	padding: 5px 5px 5px 0;
+	text-decoration: none;
+}
+
+.sub-menu-wrapper {
+	height: 28px;
+	clear: left;
+	background-color: #f00;
+	border-top: 5px solid #f00;	/* 預設使用跟 .c1 一樣的顏色 */
+	font-size: 1.2em
+}
+
+.sub-menu {
+	height: 28px;
+	position: relative;
+	overflow: hidden;
+}
+
+.sub-menu ul {
+	position: absolute;
+}
+
+.sub-menu ul li a {
+	color: #fff;
+	display: block;
+	margin-right: 20px;
+	padding-top: 2px;
+	text-decoration: none;
+}
+
+/* 自訂子選單的位置 */
+.sub-menu .sub-memu-0 { left: 40px; }
+.sub-menu .sub-memu-1 { left: 200px; }
+.sub-menu .sub-memu-2 { left: 360px; }
+.sub-menu .sub-memu-3 { left: 520px; }
+.sub-menu .sub-memu-4 { left: 680px; }
+.sub-menu .sub-memu-5 { left: 840px; }
+/* 自訂每一個選單的顏色 */
+.main-menu ul li.m1 , .main-menu ul li.m1 a.selected { color: #f00; }
+.main-menu ul li.m2 , .main-menu ul li.m2 a.selected { color: #f00; }
+.main-menu ul li.m3 , .main-menu ul li.m3 a.selected { color: #f00; }
+.main-menu ul li.m4 , .main-menu ul li.m4 a.selected { color: #f00; }
+.main-menu ul li.m5 , .main-menu ul li.m5 a.selected { color: #f00; }
+.main-menu ul li.m6 , .main-menu ul li.m6 a.selected { color: #f00; }
+
+/*----------------------------------- MENU ---------------------------------------*/
